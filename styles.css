@@ -1,0 +1,911 @@
+body {
+    font-family: "Roboto Mono";font-size: 15px;
+    color: white;
+    background-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+}
+
+
+/* light theme */
+.dark-mode {
+    background-color: white;
+    color: black;
+  }
+
+  .dark-mode .btn{
+    background-color: black;
+    color: white;
+    border-color: black;
+  }
+
+  .dark-mode .btn:hover{
+    background-color: #E5E7EB;
+    color: black;
+    border-color: #E5E7EB;
+ }
+
+  .dark-mode .about{
+    background-color: white;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .tech{
+    background-color: white;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .experience{
+    background-color: white;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .beyondc{
+    background-color: white;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .recent-proj{
+    background-color: white;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .recent-proj .proj-border{
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .recent-proj .proj-border .black{
+    background-color: #E5E7EB;
+  }
+  .dark-mode .recent-proj .proj-border .black:hover{
+    background-color: #cecfd3;
+    color: black;
+  }
+  
+
+  .dark-mode .recent-proj .proj-border a{
+    color: black;
+  }
+
+  .dark-mode .certifications{
+    background-color: white;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .certiko:hover{
+    background-color: #cecfd3;
+    color: black;
+    border-color: #cecfd3;
+  }
+
+  .dark-mode .certiko {
+    background-color: #E5E7EB;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .certiko a{
+    color: black;
+  }
+
+  .dark-mode .lets-connect{
+    background-color: white;
+    border-color: #E5E7EB;
+  }
+
+  .dark-mode .lets-connect .connecting{
+    background-color: #E5E7EB;
+  }
+
+  .dark-mode .connecting p{
+    color: black;
+  }
+
+
+  .dark-mode .lets-connect .connecting:hover{
+    background-color: #cecfd3;
+    color: black;
+  }
+
+  .dark-mode #socials .socmeds{
+    background-color: #E5E7EB;
+    color: black;
+  }
+
+  .dark-mode #socials .socmeds:hover{
+    background-color: #cecfd3;
+    color: black;
+  }
+
+
+
+/* Section 1 */
+/* Profile picture and address */
+#profile-pic {
+    border-radius: 7px;
+}
+#icon-loc{
+    padding-right: 10px;
+}
+/* Send email button */
+#btns {
+  padding-right: 10px;
+}
+ .btn{
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-width: thin;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 7px 15px;
+    transition-duration: 0.4s;
+    margin-top: 10px;
+ }
+ .btn:hover{
+    background-color: black;
+    color: white;
+ }
+
+ .container{
+    display: grid;
+    grid-template-rows: 160px auto;
+    grid-template-columns: 170px auto;
+    /* justify-content: center; */
+    gap: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
+ }
+
+ #sendemail p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+ }
+ #name{
+    display: flex;
+    padding-bottom: 0px;
+ }
+
+ #name h1{
+    margin-bottom: 10px;
+ }
+
+ /* dark them and light theme button */
+ /* From Uiverse.io by Praashoo7 */ 
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 1.5em;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: #171717; */
+    background-color: #2d2d32;
+    box-shadow: inset 2px 5px 10px rgb(0, 0, 0);
+    transition: .4s;
+    border-radius: 5px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: .9em;
+    width: 0.1em;
+    border-radius: 0px;
+    left: 0.3em;
+    bottom: 0.3em;
+    background-color: white;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(2.8em) rotate(360deg);
+  }
+
+ /* section 2 */
+ /* about */
+
+ .container2{
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-template-rows: repeat(auto, auto);
+    grid-gap: 7px;
+}
+
+#iabout{
+    padding-right: 10px;
+}
+
+.about h4{
+    font-size: 17px;
+}
+
+.about{
+    background-color: #1A1A1D;
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    align-self: start;
+    border: solid;
+    border-color: #2d2d32;
+    border-width: thin;
+    grid-column: 1 / 8;
+    grid-row: 1 / 2;
+    
+}
+
+
+
+/* Tech Stack */
+#itech{
+    padding-right: 10px;
+}
+.tech{
+    background-color: #1A1A1D;
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+
+    font-size: 13px;
+    border: solid;
+    border-color: #2d2d32;
+    border-width: thin;
+    grid-column: 1 / 8;
+    grid-row: 2 / 3;
+    
+}
+
+.tech h4{
+    font-size: 17px;
+}
+
+.span{
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: none;
+    display: inline-flex;
+    justify-content: center;
+    padding: 3px 3px 3px 3px;
+}
+ 
+/* .tech2{
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: none;
+    display: inline-flex;
+    justify-content: center;
+} */
+
+.tech2{
+    display: inline-grid;
+    border: solid;
+    border-width: thin;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+/* .spandiv{
+  display: flex;
+} */
+
+
+/* Experience */
+#expe{
+    padding-right: 10px;
+}
+
+.experience h4{
+    font-size: 17px;
+}
+
+.experience{
+    background-color: #1A1A1D;
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid;
+    border-color: #2d2d32;
+    border-width: thin;
+    /* grid-area: 1 / col4-start / last-line / 6; */
+    grid-column: 8 / 12;
+    grid-row: 1 / 3;
+
+    
+}
+
+.divspa{
+    display: flex;
+}
+div span{
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.experience ul .comp{
+font-size: 12px;
+}
+
+.experience ul span{
+    font-size: 10px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 2px 3px 2px 3px;
+}
+
+/* Beyond coding */
+#beyond{
+    padding-right: 10px;
+}
+
+.beyondc h4{
+    font-size: 17px;
+}
+
+.beyondc{
+    background-color: #1A1A1D;
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    border: solid;
+    border-color: #2d2d32;
+    border-width: thin;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+
+/* Recent projects */
+#recent{
+    padding-right: 10px;
+}
+
+.recent-proj{
+    background-color: #1A1A1D;
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    border: solid;
+    border-color: #2d2d32;
+    border-width: thin;
+    grid-column: 4 / 12;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-template-rows: repeat(auto, auto);
+    grid-gap: 7px;
+}
+
+
+
+.recent-proj h4{
+    font-size: 17px;
+    
+}
+
+.proj-border{
+    border: solid;
+    border-color:#2d2d32;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
+}
+
+.proj-border:hover{
+  top: -3px;
+}
+
+#webport{
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+#enature{
+  grid-column: 1 / 2;
+  grid-row: 4 / 6;
+}
+
+#traveler{
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+}
+
+#firstweb{
+  grid-column: 2 / 4;
+  grid-row: 4 / 6;
+}
+
+.proj-border .black:hover {
+  background-color: #111827;
+  color: white;
+}
+
+
+.textd{
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+
+.proj-border .black {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 11px;
+}
+
+.proj-border .pfont{
+    font-size: 12px;
+}
+
+/* .recent-proj .proj-border{
+    margin-bottom: 10px;
+} */
+
+
+
+/* Certifications */
+
+#cert{
+    padding-right: 10px;
+}
+
+.certifications{
+    background-color: #1A1A1D;
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    border: solid;
+    border-color: #2d2d32;
+    border-width: thin;
+    grid-column: 1 / 6;
+    grid-row: 4 / 5;
+}
+
+.certifications h4{
+    font-size: 17px;
+}
+
+.certiko{
+    background-color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.certiko p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+
+.certiko:hover{ 
+  background-color: #111827;
+  border-color: #111827;
+  color: white;
+}
+
+
+
+/* Let's connect */
+#connect{
+    padding-right: 10px;
+}
+
+.lets-connect{
+    background-color: #1A1A1D;
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    border: solid;
+    border-color: #2d2d32;
+    border-width: thin;
+    grid-column: 6 / 12;
+    grid-row: 4 / 5;
+}
+
+.connecting{
+    background-color: black;
+}
+.emailp{
+  color: white;
+}
+#email2{
+    border-radius: 10px;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 5px;
+}
+
+#email2 p{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+#socials a{
+    color: white;
+    font-size: 20px;
+    padding: 5px 30px 5px 30px ;
+    gap: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+ #socials{
+    margin-top: 10px;
+ }
+
+ .connecting:hover{ 
+  background-color: #111827;
+  color: white;
+}
+
+#socials a:hover{ 
+  background-color: #111827;
+  color: white;
+}
+
+ /* footer */
+
+ footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+    border-top: solid;
+    border-color: #2d2d32;
+    border-width: 1px;
+    font-size: 13px;
+ }
+
+ .p{
+    display: inline-block;
+ }
+
+ #credit{
+    font-size: 20px;
+ }
+
+/* 600px */
+@media (max-width: 600px){
+body{
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 12px;
+}
+
+#profile{
+  width: 130px;
+  height: 130px;
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: repeat(auto, auto);
+  grid-template-rows: repeat(auto, auto);
+  grid-gap: 7px;
+  margin-top: 5px;
+}
+
+.about{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.experience{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.tech{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.beyondc{
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.recent-proj{
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+#webport{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#enature{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+#traveler{
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+#firstweb{
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+.certifications{
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+.lets-connect{
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+ }
+
+/* 768px */
+@media (max-width: 768px) {
+  body{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 12px;
+  }
+  
+  #profile{
+    width: 130px;
+    height: 130px;
+  }
+  
+  .container2{
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-template-rows: repeat(auto, auto);
+    grid-gap: 7px;
+    margin-top: 5px;
+  }
+  
+  .about{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .experience{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .tech{
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .beyondc{
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .recent-proj{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  
+  #webport{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  #enature{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  
+  #traveler{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+  
+  #firstweb{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+  
+  .certifications{
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .lets-connect{
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+   }
+
+   /* 992px */
+   @media (max-width: 992px) {
+    body{
+      margin-left: 3%;
+      margin-right: 3%;
+      font-size: 15px;
+    }
+    
+    #profile{
+      width: 130px;
+      height: 130px;
+    }
+    
+    .container2{
+      display: grid;
+      grid-template-columns: repeat(auto, auto);
+      grid-template-rows: repeat(auto, auto);
+      grid-gap: 7px;
+      margin-top: 5px;
+    }
+    
+    .about{
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .experience{
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .tech{
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .beyondc{
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+    .recent-proj{
+      display: grid;
+      grid-column: 1/2;
+      grid-row: 5/6;
+    }
+    
+    #webport{
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+    
+    #enature{
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+    
+    #traveler{
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+    
+    #firstweb{
+      grid-column: 1 / 2;
+      grid-row: 5 / 6;
+    }
+    
+    .certifications{
+      grid-column: 1/2;
+      grid-row: 6/7;
+    }
+    .lets-connect{
+      grid-column: 1/2;
+      grid-row: 7/8;
+    }
+     }
+
+/* 430px */
+@media (max-width: 430px){
+  body{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 12px;
+  }
+  
+  #profile{
+    width: 130px;
+    height: 130px;
+  }
+  
+  .container2{
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-template-rows: repeat(auto, auto);
+    grid-gap: 7px;
+    margin-top: 10px;
+  }
+  
+  .about{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .experience{
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .tech{
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .beyondc{
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .recent-proj{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  
+  #webport{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  #enature{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  
+  #traveler{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+  
+  #firstweb{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+  
+  .certifications{
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .lets-connect{
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+   }
+
