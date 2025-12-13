@@ -608,8 +608,9 @@ a:link{
     font-size: 13px;
  }
 
- .p{
-    display: inline-block;
+ footer .p{
+    display: flex;
+    justify-content: center;
  }
 
  #credit{
