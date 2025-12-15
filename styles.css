@@ -605,13 +605,23 @@ a:link{
     border-top: solid;
     border-color: #2d2d32;
     border-width: 1px;
-    font-size: 13px;
+    font-size: 15px;
  }
 
  footer .p{
     display: flex;
     justify-content: center;
+    align-items: center;
  }
+
+/* make only the © larger */
+.copyright{
+  font-size: 20px;
+  margin-right: 8px;
+  line-height: 1;
+  display: inline-block;
+  transform: translateY(-2px);
+}
 
  #credit{
     font-size: 20px;
