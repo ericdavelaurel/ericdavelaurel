@@ -7,6 +7,14 @@ body {
     margin-top: 30px;
 }
 
+/* Grid Setup */
+ .container2{
+    display: grid;
+    grid-template-columns: repeat(auto, auto);
+    grid-template-rows: repeat(auto, auto);
+    grid-gap: 7px;
+}
+
 /* light theme */
 .dark-mode {
     background-color: white;
@@ -229,13 +237,6 @@ body {
 
  /* section 2 */
  /* about */
-
- .container2{
-    display: grid;
-    grid-template-columns: repeat(auto, auto);
-    grid-template-rows: repeat(auto, auto);
-    grid-gap: 7px;
-}
 
 #iabout{
     padding-right: 10px;
@@ -640,13 +641,6 @@ body{
   height: 130px;
 }
 
-.container2{
-  display: grid;
-  grid-template-columns: repeat(auto, auto);
-  grid-template-rows: repeat(auto, auto);
-  grid-gap: 7px;
-  margin-top: 5px;
-}
 
 .about{
   grid-column: 1/2;
@@ -713,13 +707,6 @@ body{
     height: 130px;
   }
   
-  .container2{
-    display: grid;
-    grid-template-columns: repeat(auto, auto);
-    grid-template-rows: repeat(auto, auto);
-    grid-gap: 7px;
-    margin-top: 5px;
-  }
   
   .about{
     grid-column: 1/2;
@@ -786,13 +773,6 @@ body{
       height: 130px;
     }
     
-    .container2{
-      display: grid;
-      grid-template-columns: repeat(auto, auto);
-      grid-template-rows: repeat(auto, auto);
-      grid-gap: 7px;
-      margin-top: 5px;
-    }
     
     .about{
       grid-column: 1/2;
@@ -857,14 +837,6 @@ body{
   #profile{
     width: 130px;
     height: 130px;
-  }
-  
-  .container2{
-    display: grid;
-    grid-template-columns: repeat(auto, auto);
-    grid-template-rows: repeat(auto, auto);
-    grid-gap: 7px;
-    margin-top: 10px;
   }
   
   .about{
