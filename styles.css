@@ -628,73 +628,8 @@ a:link{
     font-size: 20px;
  }
 
-/* 600px */
-@media (max-width: 600px){
-body{
-  margin-left: 3%;
-  margin-right: 3%;
-  font-size: 12px;
-}
 
-#profile{
-  width: 130px;
-  height: 130px;
-}
-
-
-.about{
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-.experience{
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-.tech{
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-.beyondc{
-  grid-column: 1/2;
-  grid-row: 4/5;
-}
-.recent-proj{
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 5/6;
-}
-
-#webport{
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-}
-
-#enature{
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
-}
-
-#traveler{
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
-
-#firstweb{
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
-}
-
-.certifications{
-  grid-column: 1/2;
-  grid-row: 6/7;
-}
-.lets-connect{
-  grid-column: 1/2;
-  grid-row: 7/8;
-}
- }
-
-/* 768px */
+/* Mobile Responsiveness */
 @media only screen and (min-width: 370px) and (max-width: 992px) {
   body{
     margin-left: 3%;
